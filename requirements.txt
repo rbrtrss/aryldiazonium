@@ -1,0 +1,124 @@
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+ase @ file:///home/conda/feedstock_root/build_artifacts/ase_1638384343806/work
+asttokens==2.0.5
+attrs==21.4.0
+backcall==0.2.0
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1649463573192/work
+black==22.1.0
+bleach==4.1.0
+brotlipy @ file:///home/conda/feedstock_root/build_artifacts/brotlipy_1648854167867/work
+build @ file:///home/conda/feedstock_root/build_artifacts/build_1631843634284/work
+certifi==2022.9.14
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1636046050867/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1661170624537/work
+click==8.0.4
+cmarkgfm @ file:///home/conda/feedstock_root/build_artifacts/cmarkgfm_1649209326886/work
+commonmark==0.9.1
+cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography_1636040633780/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+dataclasses @ file:///home/conda/feedstock_root/build_artifacts/dataclasses_1628958434797/work
+debugpy==1.5.1
+decorator==5.1.1
+defusedxml==0.7.1
+docutils @ file:///home/conda/feedstock_root/build_artifacts/docutils_1657104284957/work
+dptools @ file:///home/conda/feedstock_root/build_artifacts/dftbplus-tools_1639522319038/work/tools/dptools
+entrypoints==0.4
+executing==0.8.2
+Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1644887820294/work
+flit_core @ file:///home/conda/feedstock_root/build_artifacts/flit-core_1645629044586/work/source/flit_core
+fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1643722419875/work
+future @ file:///home/conda/feedstock_root/build_artifacts/future_1649010148175/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1653252803161/work
+importlib-resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1635615662634/work
+ipykernel==6.9.1
+ipython==8.0.1
+ipython-genutils==0.2.0
+ipywidgets==7.6.5
+itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1645182785493/work
+jaraco.classes @ file:///home/conda/feedstock_root/build_artifacts/jaraco.classes_1658175614188/work
+jedi==0.18.1
+jeepney @ file:///home/conda/feedstock_root/build_artifacts/jeepney_1649085214306/work
+Jinja2==3.0.3
+jsonschema==4.4.0
+jupyter==1.0.0
+jupyter-client==7.1.2
+jupyter-console==6.4.0
+jupyter-core==4.9.2
+jupyterlab-pygments==0.1.2
+jupyterlab-widgets==1.0.2
+keyring @ file:///home/conda/feedstock_root/build_artifacts/keyring_1663458651717/work
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1635836708241/work
+MarkupSafe==2.1.0
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-suite_1639358983313/work
+matplotlib-inline==0.1.3
+mistune==0.8.4
+more-itertools @ file:///home/conda/feedstock_root/build_artifacts/more-itertools_1660060161633/work
+munkres==1.1.4
+mypy-extensions==0.4.3
+nbclient==0.5.11
+nbconvert==6.4.2
+nbformat==5.1.3
+nest-asyncio==1.5.4
+nglview @ file:///home/conda/feedstock_root/build_artifacts/nglview_1623387107190/work
+notebook==6.4.8
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1643958816346/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+pandas==1.4.2
+pandocfilters==1.5.0
+parso==0.8.3
+pathspec==0.9.0
+pep517 @ file:///home/conda/feedstock_root/build_artifacts/pep517_1649637550439/work
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1645323156065/work
+pkginfo @ file:///home/conda/feedstock_root/build_artifacts/pkginfo_1654782790443/work
+platformdirs==2.5.1
+prometheus-client==0.13.1
+prompt-toolkit==3.0.28
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+Pygments==2.11.2
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1663846997386/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1642753572664/work
+PyQt5==5.12.3
+PyQt5_sip==4.19.18
+PyQtChart==5.12
+PyQtWebEngine==5.12.1
+pyrsistent==0.18.1
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+python-dateutil==2.8.2
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1647961439546/work
+pyzmq==22.3.0
+qtconsole==5.2.2
+QtPy==2.0.1
+readme-renderer @ file:///home/conda/feedstock_root/build_artifacts/readme_renderer_1662382930923/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1661872987712/work
+requests-toolbelt==0.9.1
+rfc3986 @ file:///home/conda/feedstock_root/build_artifacts/rfc3986_1641825045899/work
+rich @ file:///home/conda/feedstock_root/build_artifacts/rich_1657572325116/work
+safe-ase==0.0.2
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1644357243513/work
+SecretStorage @ file:///home/conda/feedstock_root/build_artifacts/secretstorage_1660605866504/work
+Send2Trash==1.8.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1638550740809/work
+stack-data==0.2.0
+terminado==0.13.1
+testpath==0.6.0
+tinycss2 @ file:///home/conda/feedstock_root/build_artifacts/tinycss2_1637612658783/work
+tomli @ file:///home/conda/feedstock_root/build_artifacts/tomli_1644342247877/work
+tornado==6.1
+traitlets==5.1.1
+twine @ file:///home/conda/feedstock_root/build_artifacts/twine_1654781028653/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1656706066251/work
+unicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_1640030999334/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1658789158161/work
+wcwidth==0.2.5
+webencodings==0.5.1
+Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1644332431572/work
+widgetsnbextension==3.5.2
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1643828507773/work
