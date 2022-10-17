@@ -13,7 +13,7 @@
 !****************************************
 &SYSTEM
   ibrav       = 0
-  nat         = 179
+  nat         = {{ nat }}
   ntyp        = 3
   ecutwfc     = 40.
   ecutrho     = 200.
@@ -33,19 +33,7 @@
   mixing_beta      = 0.60
   electron_maxstep = 64
 /
-!****************************************
-! startingwfc = 'file'
-! startingpot = 'file'
-!****************************************
-&IONS
-	ion_dynamics = 'bfgs'
-/
-!****************************************
-&CELL
-	cell_dynamics = 'bfgs'
-	press         = 0.5
-	cell_dofree   = '2Dxy'
-/
+
 !****************************************
 ATOMIC_SPECIES
 P 1.00 p_pbe_v1.5.uspp.F.UPF
@@ -61,6 +49,9 @@ CELL_PARAMETERS (angstrom)
    0.000000000   0.000000000  20.000000000
 !****************************************
 ATOMIC_POSITIONS (angstrom)
+{% for coordenada in coordenadas %}
+  {{coordenada}}
+{% endfor %}
 C            11.58682928         15.09700161         10.1711
 C            11.58692928         15.08670161          8.77632
 C            11.58682928         13.89420161         10.8775
