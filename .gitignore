@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.xyz
-.in
+*.xyz
+1L_*.in
