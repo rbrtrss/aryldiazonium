@@ -1,0 +1,54 @@
+{# templates/scf.in  -#}
+&CONTROL
+  calculation   = 'scf'
+  prefix        = {{ prefijo }}
+!  pseudo_dir    = $PSEUDOS
+  outdir        = {{ dirSalida }}
+  restart_mode  = 'from_scratch'
+  etot_conv_thr = 1.0d-06
+  forc_conv_thr = 5.0d-04
+  nstep         = 120
+/
+!****************************************
+&SYSTEM
+  ibrav       = 0
+  nat         = {{ nat }}
+  ntyp        = 3
+  ecutwfc     = 40.
+  ecutrho     = 200.
+  input_dft   = 'pbe'
+  vdw_corr    = 'dft-d'
+!  nspin       = 2
+!  tot_magnetization = 1
+  tot_charge = 1
+  occupations = 'smearing'
+  smearing    = 'fd'
+  degauss     = 0.001
+/
+!****************************************
+&ELECTRONS
+  diagonalization  = 'david'
+  conv_thr         = 1.0d-07
+  mixing_mode      = 'local-TF'
+  mixing_beta      = 0.60
+  electron_maxstep = 64
+/
+!****************************************
+ATOMIC_SPECIES
+P 1.00 p_pbe_v1.5.uspp.F.UPF
+C 1.00 c_pbe_v1.2.uspp.F.UPF
+H 1.00 h_pbe_v1.4.uspp.F.UPF
+!****************************************
+K_POINTS automatic
+2 2 1 1 1 1 
+!****************************************
+CELL_PARAMETERS (angstrom)
+{% for eje in ejes -%}
+  {{eje}}
+{% endfor -%}
+!****************************************
+ATOMIC_POSITIONS (angstrom)
+{% for coordenada in coordenadas -%}
+  {{coordenada}}
+{% endfor -%}
+End final coordinates
