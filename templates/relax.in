@@ -1,4 +1,4 @@
-{# templates/scf.in  -#}
+{# templates/relax.in  -#}
 &CONTROL
   calculation   = 'relax'
   prefix        = {{ prefijo }}

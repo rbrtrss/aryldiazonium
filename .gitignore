@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 *.xyz
-1L_*.in
+*.in
