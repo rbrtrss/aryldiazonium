@@ -1,9 +1,9 @@
 {# templates/scf.in  -#}
 &CONTROL
   calculation   = 'scf'
-  prefix        = {{ prefijo }}
+  prefix        = '{{ prefijo }}'
 !  pseudo_dir    = $PSEUDOS
-  outdir        = {{ dirSalida }}
+  outdir        = '{{ dirSalida }}'
   restart_mode  = 'from_scratch'
   etot_conv_thr = 1.0d-06
   forc_conv_thr = 5.0d-04
