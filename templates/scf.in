@@ -20,7 +20,7 @@
   vdw_corr    = 'dft-d'
 !  nspin       = 2
 !  tot_magnetization = 1
-  tot_charge = 1
+!  tot_charge = 1
   occupations = 'smearing'
   smearing    = 'fd'
   degauss     = 0.001
