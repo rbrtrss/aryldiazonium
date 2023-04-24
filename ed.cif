@@ -1,0 +1,23 @@
+data_image0
+_chemical_formula_structural       N2C2H8
+_chemical_formula_sum              "N2 C2 H8"
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_Cartn_x
+  _atom_site_Cartn_y
+  _atom_site_Cartn_z
+  _atom_site_occupancy
+  N   N1        1.0  1.85830  0.15590  -0.00450  1.0000
+  N   N2        1.0  -1.85830  -0.15600  -0.00450  1.0000
+  C   C1        1.0  0.56290  -0.51490  0.00450  1.0000
+  C   C2        1.0  -0.56290  0.51500  0.00450  1.0000
+  H   H1        1.0  0.48960  -1.16460  -0.87530  1.0000
+  H   H2        1.0  0.49710  -1.15090  0.89430  1.0000
+  H   H3        1.0  -0.49710  1.15090  0.89440  1.0000
+  H   H4        1.0  -0.48970  1.16460  -0.87540  1.0000
+  H   H5        1.0  1.94420  0.72590  -0.84520  1.0000
+  H   H6        1.0  2.59950  -0.54170  -0.05550  1.0000
+  H   H7        1.0  -1.94410  -0.72590  -0.84510  1.0000
+  H   H8        1.0  -2.59960  0.54150  -0.05550  1.0000
